@@ -1,0 +1,43 @@
+{
+  "name": "contracts-starter",
+  "version": "1.0.0",
+  "description": "Template for contract projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn && yarn hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudgen/contracts-starter.git"
+  },
+  "author": "Nick Mudge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudgen/contracts-starter/issues"
+  },
+  "homepage": "https://github.com/mudgen/contracts-starter#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@types/mocha": "^10.0.9",
+    "chai": "^4.3.4",
+    "dotenv": "^8.6.0",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.22.13",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.13",
+    "standard": "^16.0.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.1.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@solidstate/contracts": "^0.0.60",
+    "abdk-libraries-solidity": "^3.2.0",
+    "axios": "^1.7.7",
+    "ethers": "^5.4.7"
+  }
+}
